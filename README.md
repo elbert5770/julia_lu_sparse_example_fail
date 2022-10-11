@@ -12,3 +12,13 @@ Also in Julia, the sparse matrix from MATLAB is factored with LinearAlgebra.lu()
 The resulting sparse L matrices are compared to each other and to the MATLAB-derived matrix.
 
 While the L matrix calculated in Julia with the full matrix agrees with the MATLAB-derived L matrix, the L matrix calculated in Julia with the sparse matrix agrees with neither.
+
+Status `~/.julia/environments/v1.8/Project.toml`
+  [336ed68f] CSV v0.10.4
+  [a93c6f00] DataFrames v1.4.1
+  [033835bb] JLD2 v0.4.25
+  [23992714] MAT v0.10.3
+  [bd369af6] Tables v1.9.0
+  [37e2e46d] LinearAlgebra
+  [9a3f8284] Random
+  [2f01184e] SparseArrays
